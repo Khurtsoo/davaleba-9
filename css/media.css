@@ -32,12 +32,61 @@
     a {
         display: none;
     }
-
+    .photo-2 {
+        width: 770px;
+    }
+    .text-1 {
+        top: 170px;
+        left: 130px;
+        font-size: 45px;
+    }
+    .text-2 {
+        top: 230px;
+        left: 130px;
+        font-size: 15px
+    }
+    .left-side {
+        position: absolute;
+        right: 45px;
+        width: 150px;
+        height: 30px;
+    }
+    .right-side {
+        margin-right: 200px;
+    }
 
 }
-
-@media (max-width:480px) {
+@media (max-width:620px) {
     a {
         display: none;
+    }
+    .left-side {
+        left: 70px;
+    }
+    .right-side {
+        margin-right: -30px;
+    }
+}
+
+@media (max-width:560px) {
+    a {
+        display: none;
+    }
+    .photo-2 {
+        width: 480px;
+
+    }
+    .text-1 {
+        top: 140px;
+        left: 90px;
+    }
+    .text-2 {
+        top: 200px;
+        left: 90px;
+    }
+    .right-side {
+        margin-top: 250px;
+        display: flex;
+        flex-direction: row-reverse;
     }
 }
