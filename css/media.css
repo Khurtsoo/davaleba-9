@@ -1,0 +1,43 @@
+@media (max-width: 1024px) {
+     .tag-1 {
+        width: 900px;
+        
+     }
+     .photo-2 {
+        width: 900px;
+        
+     }
+     .text-1 {
+        top: 150px;
+        left: 250px;
+     }
+     .text-2 {
+        top: 230px;
+        left: 320px;
+     }
+    .left-side {
+        margin-left: -40px;
+    }
+    .right-side {
+        flex-wrap: wrap;
+        gap: 19px;
+        align-content: space-around;
+        justify-content: flex-end;
+    }
+ }
+
+
+
+@media (max-width:768px) {
+    a {
+        display: none;
+    }
+
+
+}
+
+@media (max-width:480px) {
+    a {
+        display: none;
+    }
+}
